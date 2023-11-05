@@ -2,15 +2,23 @@ import Link from "next/link";
 
 function Navbar() {
     return (
-        <nav className="flex items-center py-2 bg-black">
-            <div className="flex items-center py-1 bg-white rounded-xl p-2">
-                <div ><a href="#">Home</a></div>             
+        <nav className=" shadow-md flex justify-between py-1  sm:px-6 lg:px-8 text-black font-sans ">
+            <div className=" py-2 flex">
+                <div className=" rounded-sm  p-2 m-2  hover:bg-violet-600 transition ease-in-out  duration-500   ">
+                    <Link href="/">
+                        Home
+                    </Link>
+                </div>
+                <div className=" rounded-sm  p-2 m-2 hover:bg-violet-600 transition ease-in-out  duration-500  ">
+                    <Link href="/blog">
+                    Blog
+                    </Link></div>             
             </div>
-            <div className="py-1 bg-white rounded-xl p-2">
-                <Link href="/services">
-                Services
-                </Link>
-      
+            <div className=" py-2 flex" >
+                <div className= "rounded-sm  p-2 m-2 hover:bg-violet-600 transition ease-in-out  duration-500  ">
+                 <Link href="/login"> Login</Link>  
+                </div>
+               
             </div>
             
         </nav>
