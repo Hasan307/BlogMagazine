@@ -13,6 +13,12 @@ function Navbar() {
         <div className=" rounded-sm  p-2 m-2 hover:bg-violet-600 transition ease-in-out  duration-500  ">
           <Link href="/contact">Contact Us</Link>
         </div>
+        <div className=" rounded-sm  p-2 m-2 hover:bg-violet-600 transition ease-in-out  duration-500  ">
+          <Link href="/services">Services</Link>
+        </div>
+        <div className=" rounded-sm  p-2 m-2 hover:bg-violet-600 transition ease-in-out  duration-500  ">
+          <Link href="/about">About us</Link>
+        </div>
       </div>
 
       <div className=" py-2 flex">

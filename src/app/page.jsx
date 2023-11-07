@@ -1,8 +1,7 @@
 import Hero from '@/components/Hero';
-import NewsTeller from '@/components/NewsTeller';
 import Header from '@/components/Header';
-import React from 'react';
 import Latest from '../components/Latest';
+import Footers from '../components/Footers';
 
 const page = () => {
   return (
@@ -10,8 +9,8 @@ const page = () => {
      <Header/>
       <Hero/>
       <Latest/>
-      <NewsTeller/>
-      
+      <Footers/>
+    
     </div>
   );
 };
